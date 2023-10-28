@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#body{
+    width: 1480px;
+    height: 694px;
+    border: 0px solid black;
+    
+}
+#h1{
+    background-image: url("./hinh/hinh-nen-mau-hong-nhat_1.jpg");
+    color: maroon;
+    top: -15px;
+    bottom: -15px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 15%;
+    border: 0px solid black;
+}
+#h4{
+    font-size: 13px;
+    color: #210202;
+}
+#h3{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    color: rgb(70, 15, 29);
+}
+
+#menutrai{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 2, 52);
+    float: left;
+    width: 25%;
+    height: 79%;
+    border: 0px solid rgb(10, 2, 2);
+}
+#noidungchinh{
+    /* background-image: url(./hinh/slide_2_img.jpg); */
+    background-size: 130%;
+    float:right;
+    width:39.7%;
+    height:84.4%;
+    border: 0px solid black;
+    
+}
+input[type="button"]{
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #b9a193;
+    color: rgb(8, 0, 0);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    color: white;
+    background-color: #550441;
+}
+
+input[type="submit"]{
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0.5em;
+    font-size: 11px;
+    background-color: rgba(1, 44, 18, 0.3);
+    color: rgb(17, 29, 47);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #90cde7;
+}
+#sanpham{
+    background-color: #bcdee3;
+}
+#tensp{
+    color: aliceblue;
+    background-color: #2A3132;
+}
+#hinh1{
+    margin-bottom: auto;
+}
+
+#giatien{
+    color: aliceblue;
+    background-color: #2A3132;
+}
+
+#ttlhe{
+    font-size: 11px;
+    width: 100%;
+    height: 8.8%;
+    border: 0px solid black;
+    margin-top:27% ;
+}
+#tinhtien{
+    color: white;
+    background-color: #2A3132;
+}
+
+#hinh2{
+    float: left;
+    height:84.8%;
+    width:35%; 
+    border: 0px solid black;
+   
+}
+#hinh2_1{
+    margin-top: 9%;
+}
