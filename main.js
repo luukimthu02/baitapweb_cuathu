@@ -23,7 +23,7 @@ function tongthanhtien(){
 
     var tong2 = gia2*input2 + gia4*input4 + gia5*input5;
     var tongtatca =  tong1 + tong2;
-    //tien = Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(tongtatca);
+    tien = Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(tongtatca);
     document.getElementById("tinhtien").textContent = tien;
 
 }
