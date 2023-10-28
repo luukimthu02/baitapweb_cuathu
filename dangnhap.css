@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-image: url("./hinh/slide_1_img.jpg");
+    width: 1480px;
+    height: 703px;
+    border: 0px solid white;
+}
+#h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #CB6318; */
+    width: 100%;
+    height: 10%;
+    color: black;
+}
+#h4{
+    color: rgb(50, 34, 15);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size:  20px;
+
+}
+#bang{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(201, 58, 58);
+    margin-top: 5%;
+    margin-left: 20%;
+}
+#noidungchinh{
+    color: black;
+    width: 100%;
+    height: 92%;
+    border: 0px solid black;
+}
+input[type="submit"] {
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #77c379;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #159934;
+}

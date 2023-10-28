@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-image: url("./hinh/slide_3_img.webp");
+    width: 1480px;
+    height: 703px;
+    border: 0px solid white;
+}
+#h1{
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+#h4{
+    color: rgb(5, 230, 192);
+    margin-top: 5%;
+    font-size:  20px;
+
+}
+#bang{
+   margin-top: 5%;
+}
+input[type="submit"] {
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #77c379;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #159934;
+}
+
+input[type="reset"] {
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #db6c6c;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+input[type="reset"]:hover {
+    background-color: #c33030;
+}
+#noidungchinh{
+    color: black;
+    width: 100%;
+    height: 90%;
+    border: 0px solid black;
+}
+#noidungnho{
+    background-color: darkgoldenrod;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 10%;
+    width: 50%;
+    height: 10%;
+    border: 0px solid black;
+    border-radius: 30px;
+}
